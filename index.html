@@ -61,10 +61,7 @@
 				</div>
 				<div class="carousel-item">
 					<img class="d-block w-100" src="/img/background-900.jpg" alt="Second slide">
-				</div>
-				<div class="carousel-item">
-					<img class="d-block w-100" src="https://via.placeholder.com/350x150" alt="Third slide">
-				</div>
+				</div>				
 			</div>
 			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -82,32 +79,40 @@
 			</div>
 		</div>
 		<div class="row" id="a">
-			<div class="col">
+			<div class="col-12">
 				<h1>Ассортимент</h1>
-				<div class="card-deck">
-					<div class="card">
-						<img class="card-img-top" alt="Молоко детское" title="Молоко детское" src="img/moloko/s/moloko_deti.jpg">
-						<div class="card-body">
-							<h5 class="card-title">Молоко детское</h5>
-							<p class="card-text">Вырабатывается из цельного молока с добавлением витаминов А, С, а также содержит кальций и фосфор.</p>
+			</div>
+				<div class="col-sm-4">
+					<div class="card" style="width: 18rem;">
+						<div class="card-header text-center">Молоко детское</div>
+						<img class="card-img-top mx-auto d-block" alt="Молоко детское" title="Молоко детское" src="img/moloko/s/moloko_deti.jpg" >
+						<div class="card-body">							
+							<p class="card-text"></p>
 						</div>
+						<div class="card-footer text-center">Вырабатывается из цельного молока с добавлением витаминов А, С, а также содержит кальций и фосфор.</div>
 					</div>
+				</div>
+				<div class="col-sm-4">
 					<div class="card">
+							<div class="card-header">Кефир</div>
 						<img class="card-img-top" alt="Кефир" title="Кефир" src="img/kefir/s/kefir.jpg">
-						<div class="card-body">
-							<h5 class="card-title">Кефир</h5>
+						<div class="card-body">							
 							<p class="card-text">Положительно воздействует на белковый обмен при заболеваниях печени, аллергических заболеваниях.</p>
 						</div>
 					</div>
+				</div>
+				<div class="col-sm-4">
 					<div class="card">
+							<div class="card-header">Творожок</div>
 						<img class="card-img-top" alt="Творожок" title="Творожок" src="img/tvorog/s/tvorozhok.jpg">
 						<div class="card-body">
-							<h5 class="card-title">Творожок</h5>
 							<p class="card-text">Приготовлен из нормализованного коровьего молока и закваски. Обладает высокими биологическими свойствами.</p>
 						</div>
 					</div>
 				</div>
-				<div class="card-deck">
+				</div>
+				<div class="row">
+					<div class="col-4">
 					<div class="card">
 						<img class="card-img-top" alt="Молоко" title="Молоко" src="img/moloko/s/moloko.jpg">
 						<div class="card-body">
@@ -115,6 +120,8 @@
 							<p class="card-text">Вырабатывается из натурального коровьего молока, является наиболее полноценным и сбалансированным продуктом.</p>
 						</div>
 					</div>
+				</div>
+				<div class="col-4">
 					<div class="card">
 						<img class="card-img-top" alt="Бифилайф фруктовый" title="Бифилайф фруктовый" src="img/bifi/s/bifilife.jpg">
 						<div class="card-body">
@@ -122,16 +129,18 @@
 							<p class="card-text">Улучшает обмен веществ, поддерживает иммунитет. Содержит бифидобактерии и молочнокислые микроорганизмы.</p>
 						</div>
 					</div>
+				</div>
+				<div class="col-4">
 					<div class="card">
 						<img class="card-img-top" alt="Йогурт" title="Йогурт" src="img/yogurt/s/yogurt.jpg">
 						<div class="card-body">
 							<h5 class="card-title">Йогурт</h5>
 							<p class="card-text">Регулирует пищеварение, обогащает кальцием, молочным белком, который столь необходим при умственных нагрузках.</p>
 						</div>
-					</div>					
+					</div>
+				</div>					
 				</div>
-			</div>
-		</div>
+
 		<div class="row" id="p">			
 				<h1>Производство</h1>
 		</div>		
@@ -154,7 +163,7 @@
 			<div class="row" id="pr">
 				<div class="col">
 					<h1>Цены</h1>
-					<table class="table table-hover">
+					<table class="table table-striped">
 						<thead class="thead-light">
 							<tr>
 								<th scope="col">Наименование</th>
