@@ -1,10 +1,18 @@
 body {
-/*	font-family: "Times new roman";
-	font-size: 24px;*/
+/*	font-family: "Times new roman";*/
+	font-size: 20px;
 	color: #234175;
+}
+
+#phone_num{
+	font-size: 30px;
 }
 
 #mainContainer {
     border: 1px;
     border-style: solid;
+}
+
+.col-3 img {
+	height: 200px;
 }
